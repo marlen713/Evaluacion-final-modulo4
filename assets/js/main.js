@@ -58,8 +58,10 @@ class DataEnpoint {
         if (user) {
             console.log("Teléfono:", user.phone);
             console.log("Sitio Web:", user.website);
-            console.log("Compañia:");
-            console.log("  Nombre:", user.company.name);            
+            console.log("Compañía:");
+            console.log("  Nombre:", user.company.name);
+            console.log("  CatchPhrase:", user.company.catchPhrase);
+            console.log("  Bs:", user.company.bs);            
         } else {
             console.log("Usuario no encontrado");            
         }
