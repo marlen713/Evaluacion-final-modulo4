@@ -43,7 +43,9 @@ class DataEnpoint {
             console.log("Calle:", d.street);
             console.log("Suite:", d.suite);
             console.log("Ciudad:", d.city);
-            console.log("Código Postal:", d.zipcode);            
+            console.log("Código Postal:", d.zipcode);
+            console.log("Latitud:", d.geo.lat);
+            console.log("Longitud:", d.geo.lng);            
         } else {
             console.log("Usuario no encontrado");            
         }
